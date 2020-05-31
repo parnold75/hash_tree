@@ -10,8 +10,6 @@ FIND_LIBRARY(cryptopp crypto++ /usr/lib) ## location of libcryptopp.so or libcry
 
 include_directories(
 	"../"
-	#"/usr/include"
-	#"C:/Daten/github/cryptopp"
 )
 
 set(Sources
